@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>R: The doMC Package</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="R.css">
+</head><body>
+
+<table width="100%" summary="page for doMC-package {doMC}"><tr><td>doMC-package {doMC}</td><td align="right">R Documentation</td></tr></table>
+
+<h2>
+The doMC Package
+</h2>
+
+<h3>Description</h3>
+
+<p>The doMC package provides a parallel backend for the foreach/%dopar%
+function using the multicore functionality of the parallel package.
+</p>
+
+
+<h3>Details</h3>
+
+<p>Further information is available in the following help topics:
+</p>
+
+<table summary="Rd table">
+<tr>
+ <td align="left">
+<code>registerDoMC</code> </td><td align="left"> register doMC to be used by foreach/%dopar%</td>
+</tr>
+<tr>
+ <td align="left">
+</td>
+</tr>
+
+</table>
+
+<p>To see a tutorial introduction to the doMC package,
+use <code>vignette("gettingstartedMC")</code>.  To see a tutorial
+introduction to the foreach package, use <code>vignette("foreach")</code>.
+</p>
+<p>To see a demo of doMC computing the sinc function,
+use <code>demo(sincMC)</code>.
+</p>
+<p>Some examples (in addition to those in the help pages) are included in
+the &ldquo;examples&rdquo; directory of the doMC package.  To list the files in
+the examples directory,
+use <code>list.files(system.file("examples", package="doMC"))</code>.
+To run the bootstrap example, use
+<code>source(system.file("examples", "bootMC.R", package="doMC"))</code>.
+This is a simple benchmark, executing both sequentally and in parallel.
+There are many more examples that come with the foreach package,
+which will work with the doMC package if it is registered as the
+parallel backend.
+</p>
+<p>For a complete list of functions with individual help pages,
+use <code>library(help="doMC")</code>.
+</p>
+
+<hr><div align="center">[Package <em>doMC</em> version 1.3.3 <a href="00Index.html">Index</a>]</div>
+</body></html>

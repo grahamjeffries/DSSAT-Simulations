@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>R: registerDoMC</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="R.css">
+</head><body>
+
+<table width="100%" summary="page for registerDoMC {doMC}"><tr><td>registerDoMC {doMC}</td><td align="right">R Documentation</td></tr></table>
+
+<h2>registerDoMC</h2>
+
+<h3>Description</h3>
+
+<p>The <code>registerDoMC</code> function is used to register the multicore
+parallel backend with the <code>foreach</code> package.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+registerDoMC(cores=NULL, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>cores</code></td>
+<td>
+<p>The number of cores to use for parallel execution. If not
+specified, the number of cores is set to the value of 
+<code>options("cores")</code>, if specified, or to approximately half
+the number of cores detected
+by the <code>parallel</code> package.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Package options.  Currently, only the <code>nocompile</code> option
+is supported.  If <code>nocompile</code> is set to <code>TRUE</code>, compiler
+support is disabled.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The <code>multicore</code> functionality, originally written by Simon Urbanek and
+subsumed in the <code>parallel</code> package in R 2.14.0, provides functions 
+for parallel execution of R code on machines with multiple cores or 
+processors, using
+the system <code>fork</code> call to spawn copies of the current process. The
+<code>multicore</code> functionality, and therefore <code>registerDoMC</code>, should 
+not be used
+in a GUI environment, because multiple processes then share the same GUI.
+</p>
+
+<hr><div align="center">[Package <em>doMC</em> version 1.3.3 <a href="00Index.html">Index</a>]</div>
+</body></html>

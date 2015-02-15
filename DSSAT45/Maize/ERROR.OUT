@@ -1,0 +1,14 @@
+*RUN-TIME ERRORS OUTPUT FILE
+
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         FEB 12, 2015; 23:08:00
+
+*RUN   1
+
+SAWA0402.MZX, Trt    1
+ 
+ File not found.  Please check file name or create file.                        
+  
+File: /DSSAT45/Maize/SAWA0402.MZX   Line:     0   Error key: IPEXP 
+
+Additional information may be available in WARNING.OUT file.

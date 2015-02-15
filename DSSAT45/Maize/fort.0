@@ -1,0 +1,22 @@
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2004/169            2004/169
+!SOIL P BALANCE                                 -----------kg P/ha-----------
+
+
+!  SOIL INORGANIC P
+!   Stable soil P                                   0.000               0.000
+!   Active soil P                                   0.000               0.000
+!   Labile soil P                                   0.000               0.000
+!                                                --------            --------
+!   Total Inorganic P in Soil                       0.000               0.000
+
+!  ADDITIONS AND REMOVALS:
+!   Fertilizer P                                    0.000
+!   Mineralized P                                   0.000
+!   Immobilized P                                                       0.000
+!   P Uptake From Soil                                                  0.000
+!                                                --------            --------
+!  TOTAL soil inorganic P BALANCE                   0.000               0.000
+!      Difference:                                                      0.000

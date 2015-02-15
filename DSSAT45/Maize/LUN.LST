@@ -1,0 +1,9 @@
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         FEB 12, 2015; 23:08:00
+
+ Unit  Filename
+  101  OPCLR
+   21  FILEIO
+   14  BATCH 
+   90  WARNING.OUT
+   86  ERRORO
+   15  ERRORX

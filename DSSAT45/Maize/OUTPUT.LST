@@ -1,0 +1,32 @@
+*Output file list
+
+@FILENAME          DESCRIPTION
+ET.OUT             Daily soil-plant-atmosphere output file           
+MgmtOps.OUT        Daily management operations output file           
+PlantGro.OUT       Daily plant growth output file                    
+PlantN.OUT         Daily plant nitrogen output file                  
+PlantP.OUT         Daily plant phosphorus output                     
+SoilNi.OUT         Daily inorganic soil N output file                
+SoilOrg.OUT        Daily soil carbon output file                     
+SoilPi.OUT         Daily inorganic soil phosphorus output file       
+SoilTemp.OUT       Daily soil temperature output file                
+SoilWat.OUT        Daily soil water output file                      
+SOMLITC.OUT        Daily soil organic matter carbon output file      
+SOMLITN.OUT        Daily soil organic matter nitrogen output file    
+SOMLITP.OUT        Daily soil organic matter phosphorus output file  
+Weather.OUT        Daily weather output file                         
+Mulch.OUT          Daily surface mulch output file                   
+Evaluate.OUT       Evaluation output file (simulated vs. measured)   
+MgmtEvent.OUT      Management event output file                      
+OVERVIEW.OUT       Seasonal overview output file                     
+PlantPBal.OUT      Plant phosphorus balance                          
+SolNBalSum.OUT     Soil N balance summary                            
+SoilNiBal.OUT      Seasonal inorganic soil N balance                 
+SoilNoBal.OUT      Seasonal organic soil N balance                   
+SolPBalSum.OUT     Soil P balance summary                            
+SoilPiBal.OUT      Seasonal inorganic soil P balance                 
+SoilPoBal.OUT      Seasonal organic soil P balance                   
+SoilWatBal.OUT     Seasonal soil water balance                       
+Summary.OUT        Seasonal summary output file                      
+INFO.OUT           Information output file                           
+WARNING.OUT        Warning messages                                  

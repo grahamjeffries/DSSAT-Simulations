@@ -1,0 +1,16 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+ IPEXP   YEAR DOY =    0   0
+ File not found:                                                               
+ /DSSAT45/Maize/SAWA0402.MZX                                                   
+
+******************************************************************************
+
+ IPEXP   YEAR DOY =    0   0
+ File not found.  Please check file name or create file.                       
+ File: /DSSAT45/Maize/SAWA0402.MZX                                             
+    Line:     0                                                                
+    Error key: IPEXP                                                           
+ Simulations terminated.                                                       

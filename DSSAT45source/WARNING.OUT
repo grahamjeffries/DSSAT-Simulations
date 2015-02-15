@@ -1,0 +1,25 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         JUN 30, 2014; 14:37:15
+
+*RUN   0
+
+
+ CSM     YEAR DOY =    0   0
+ Could not locate error file:                                      ./MODEL.ERR 
+ Unknown ERROR. Error number:    26                                            
+ File: batch.v45      Line:     1 Error key: CSM                               
+ Simulations terminated.                                                       
+
+******************************************************************************
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         JUN 30, 2014; 14:38:14
+
+*RUN   0
+
+
+ CSM     YEAR DOY =    0   0
+ Could not locate error file:                                      ./MODEL.ERR 
+ Unknown ERROR. Error number:    26                                            
+ File: batch.v45      Line:     1 Error key: CSM                               
+ Simulations terminated.                                                       

@@ -1,0 +1,7 @@
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         JUN 30, 2014; 14:38:14
+
+ Unit  Filename
+   21  FILEIO
+   14  BATCH 
+  101  ERRORO
+  102  WARNING.OUT
