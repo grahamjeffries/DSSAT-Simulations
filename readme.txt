@@ -29,10 +29,22 @@ MAKE SURE THE NUMBER OF CORES IN parallel.cmd matches those specified by the reg
 If using a Princeton cloud with the slurm job scheduler, submit the program by typing “sbatch parallel.cmd”
 
 #####################################################
-Files:
+Files (you only need to edit inputScript.R):
 #####################################################
 inputScript.R	      - Code to enter input for DSSAT trials
 runSensitivityTests.R - Code to execute parallel DSSAT trials
+DSSAT45 folder	      - All files DSSAT needs to run. This is copied over for each trial
+DSSAT45source 	      - DSSAT source code for compiling DSSAT
+intel folder	      - Contains libraries to compile DSSAT with the intel compiler
+R folder              - Contains libraries to run trials in parallel.
+Collected Data        - Contains results from trials I am running
+
+#####################################################
+Output format:
+#####################################################
+The results are saved to a file called “results” in the trials folder. The columns are arranged by harvest yield, days between irrigations, total irrigation amount, number of times N fertilizer is applied, total amount of N fertilizer applied, number of times P fertilizer is applied, and total amount of P fertilizer applied.
+
+The best practices should be saved in a file called “bestPractices”, but for some reason it’s giving nonsense results. I’d recommend just downloading the “results” file and sorting it in excel to find the best practices.  
 
 #####################################################
 Potential future updates:
